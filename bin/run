@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative "../lib/command_line_interface.rb"
-
+require 'nokogiri'
+require 'colorize'
 
 CommandLineInterface.new.run
